@@ -9,3 +9,4 @@ for i in range(len(string)):
                 if MIN > j - i - 1 and len(string[i:j-i]) != 2:
                     MIN = j - i - 1
 print(MIN)
+print("Second commit")
